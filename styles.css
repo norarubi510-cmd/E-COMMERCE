@@ -137,3 +137,29 @@ header {
 
     */
 
+    .highlight_wrapper {
+        display: flex;
+    }
+
+    .highlight {
+        padding: 24px;
+        width: calc(100% / 3);
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .highlight_para {
+        text-align:center;
+    }
+
+    .highlight_img {
+        border: 2px solid #7342d65a;
+        width: 100px;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+    }
