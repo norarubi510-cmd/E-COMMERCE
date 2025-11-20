@@ -17,8 +17,8 @@ nav {
     padding: 0 24px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     align-items: center;
+    margin: 0 auto;
 }
 
 .logo {
@@ -33,7 +33,7 @@ li {
     list-style-type: none;
 }
 
-.nav_links {
+.nav_link {
     margin-left: 16px;
     text-decoration: none;
     font-size: 24px;
