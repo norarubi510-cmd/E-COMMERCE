@@ -14,8 +14,15 @@ nav {
 .nav_container {
     width: 100%;
     max-width: 1200px;
+    padding: 0 24px;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.logo {
+    width: 160px;
 }
 
 ul {
@@ -24,4 +31,11 @@ ul {
 
 li {
     list-style-type: none;
+}
+
+.nav_links {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #7342d6;
 }
