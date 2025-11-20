@@ -8,5 +8,20 @@
 
 nav {
     height: 80px;
-    
+    display: flex;
+}
+
+.nav_container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
 }
