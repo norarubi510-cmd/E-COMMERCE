@@ -50,3 +50,11 @@ li {
     border: 2px solid #7342d6;
     border-radius: 4px;
 }
+
+.nav-link--primary:hover {
+    text-decoration: none;
+}
+
+#landing {
+    background-color: rgba (115, 66, 214, 0.1);
+}
