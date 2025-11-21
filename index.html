@@ -10,7 +10,7 @@
     <script src="index.js"></script>
 </head>
 
-   <body>
+   <body class="menu--open">
        <section id="landing">
            <nav>
               <div class="nav_container">
@@ -20,12 +20,11 @@
                        <li><a href="#" class="nav_link">Contact</a></li>
                        <li><a href="#" class="nav_link nav_link--primary">Books</a></li>
                   </ul>
-              </div>
-              <button class="btn_menu">
+              <button class="btn_menu" onclick="openMenu()">
                   <i class="fas fa-bars"></i>
               </button>
               <div class="menu_backdrop">
-                 <button class="btn_menu btn_menu--close">
+                 <button class="btn_menu btn_menu--close" onclick="closeMenu()">
                    <i class="fas fa-times"></i>
                  </button>
                   <ul class="menu_links">
@@ -39,7 +38,8 @@
                         <a class="menu_link no-cursor">Contact</a>
                      </li>
                   </ul>
-              </div>  
+              </div> 
+              </div> 
            </nav>
           <header>
               <div class="header_container">

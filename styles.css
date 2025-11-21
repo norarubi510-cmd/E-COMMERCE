@@ -94,6 +94,7 @@ li {
     text-align: center;
     border: none;
     color: #7342d6;
+    display: none;
 }
 
 .menu_backdrop {
@@ -107,6 +108,11 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
+}
+
+.menu--open .menu--backdrop {
+    display: flex;
 }
 
 .menu_links {
@@ -386,3 +392,17 @@ header {
     .footer_link {
         padding: 0 8px;
     }
+
+    @media (max-width: 550px) {
+        .nav_links {
+            display: none;
+        }
+
+        .btn_menu {
+            display: block;
+        }
+
+        
+    }
+
+    
