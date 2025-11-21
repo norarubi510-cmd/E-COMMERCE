@@ -265,7 +265,8 @@ header {
         display: flex;
     }
 
-    .book:hover, .book_img {
+    .book:hover, 
+    .book_img {
         transform: scale(1.03);
     }
 
