@@ -266,4 +266,11 @@ header {
 
     .book_ratings {
         margin-bottom: 8px;
+        color: #fabf2a;
+    }
+
+    .book_price--normal {
+        text-decoration: line-through;
+        padding-right: 6px;
+        color: #bfbfbf;
     }
