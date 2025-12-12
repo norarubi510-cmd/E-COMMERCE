@@ -497,6 +497,8 @@ select {
   animation: rotate 600ms infinite linear;
 }
 
+
+
 @keyframes rotate {
   0% {
     transform: rotate(0);
