@@ -441,25 +441,25 @@ BOOKS PAGE
 **
 */
 
-#books__body {
+#books_body {
   background-color: rgba(115, 66, 214, 0.1);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
-#books__main {
+#books_main {
   flex: 1;
 }
 
-.books__header {
+.books_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
 }
 
-.books__header--title {
+.books_header--title {
   margin-bottom: 0;
 }
 
@@ -476,7 +476,7 @@ select {
   max-width: 200px;
 }
 
-.books__loading {
+.books_loading {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -485,11 +485,11 @@ select {
   color: #7342d6;
 }
 
-.books__loading--spinner {
+.books_loading--spinner {
   display: none !important;
 }
 
-.books__loading .books__loading--spinner {
+.books_loading .books_loading--spinner {
   display: block !important;
 }
 
