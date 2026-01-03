@@ -38,7 +38,7 @@ async function renderBooks(filter) {
       ${ratingsHTML(book.rating)}
     </div>
      <div class="book__price">
-            
+                                                                                                                                                                                                                      
       ${priceHTML(book.originalPrice, book.salePrice)}
     </div>
   </div>`;
